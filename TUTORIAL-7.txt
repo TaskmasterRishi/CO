@@ -1,0 +1,18 @@
+        LDA     NBR         
+        CMA
+        INC                     
+        STA     CTR         
+        LDA     ADR         
+        STA     PTR         
+LOP,    CLA                     
+        STA     PTR I       
+        ISZ     PTR         
+        ISZ     CTR         
+        BUN     LOP         
+        HLT                     
+
+NBR,    HEX     FF          
+CTR,    DEC     0           
+ADR,    HEX     500         
+PTR,    HEX     500         
+

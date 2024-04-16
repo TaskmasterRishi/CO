@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "fp_octal_to_decimalcpp": "c"
+    }
+}
